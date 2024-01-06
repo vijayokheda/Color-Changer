@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body,html {
+   width: 100%;
+   height: 100%;
+   background-color: black;
+}
+
+.color-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+#grey {
+    border: 1px solid black;
+    background-color: grey;
+}
+#white {
+    border: 1px solid black;
+    background-color: white;
+}
+.blue {
+    border: 1px solid black;
+    background-color: blue;
+}
+#yellow {
+    border: 1px solid black;
+    background-color: yellow;
+}
+#purple {
+    border: 1px solid black;
+    background-color: purple;
+}
